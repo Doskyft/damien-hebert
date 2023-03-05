@@ -1,9 +1,6 @@
 @import './variable.scss';
 
 header {
-  position: sticky;
-  top: 2rem;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,12 +8,14 @@ header {
   width: 90%;
   max-width: $columns-6xl;
 
-  margin: auto;
+  margin: 2rem auto 0 auto;
   padding: 1rem 1rem 1rem 2rem;
 
   background-color: $color-white;
 
-  border-radius: 1rem;
+  border-radius: .8rem;
+
+  box-shadow: $shadow-xl;
 
   h2 {
     margin: 0;

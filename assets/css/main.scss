@@ -20,6 +20,16 @@ a {
   color: $color-black;
 }
 
+main {
+  color: $color-white;
+
+  h1 {
+    text-transform: uppercase;
+  }
+
+  @import 'home/summary';
+  @import 'home/projects';
+}
+
 @import 'header';
-@import 'home';
 @import 'button';

@@ -1,0 +1,46 @@
+@import '../variable';
+
+#summary {
+  max-width: $columns-5xl;
+  margin: 5rem auto 0 auto;
+
+  display: flex;
+  justify-content: space-around;
+  gap: 4rem;
+
+  #summary-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    h1 {
+      font-size: 3.5rem;
+    }
+
+    #social-media {
+      position: absolute;
+
+      bottom: 3rem;
+      right: 1rem;
+
+      display: flex;
+      gap: 1rem;
+
+      img {
+        width: 3.5rem;
+        box-shadow: $shadow-xl;
+      }
+    }
+  }
+
+  #summary-image {
+    display: flex;
+
+    margin-top: 2rem;
+
+    img {
+      filter: $drop-shadow-lg;
+    }
+  }
+}
