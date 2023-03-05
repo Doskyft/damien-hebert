@@ -1,0 +1,35 @@
+{
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "sass": "^1.58.3",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "terser-webpack-plugin": "^5.3.6",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "name": "damien-hebert",
+  "description": "damienhebert.fr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Doskyft/damien-hebert.git"
+  },
+  "keywords": [
+    "cv"
+  ],
+  "author": "Damien Hebert",
+  "license": "CC-BY-NC-ND-4.0",
+  "bugs": {
+    "url": "https://github.com/Doskyft/damien-hebert/issues"
+  },
+  "homepage": "https://github.com/Doskyft/damien-hebert#readme"
+}

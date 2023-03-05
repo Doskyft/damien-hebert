@@ -1,0 +1,12 @@
+@import "variable";
+
+.btn {
+  display: block;
+
+  background-color: $color-primary;
+  color: $color-white;
+
+  border-radius: .8rem;
+
+  padding: .8rem 2rem;
+}
