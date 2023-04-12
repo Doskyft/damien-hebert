@@ -1,0 +1,12 @@
+@import "assets/css/variable";
+
+#courses {
+  background-color: $color-white;
+  color: $color-black;
+
+  #courses-content {
+    width: $columns-5xl;
+    margin: auto;
+    padding: 1rem 0;
+  }
+}

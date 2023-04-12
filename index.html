@@ -21,7 +21,8 @@
     <nav>
         <ul>
             <li><a href="#summary">Home</a></li>
-            <li><a href="#projects">Projet</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#skills">Compétences</a></li>
             <li><a href="#courses">Formations</a></li>
             <li><a href="#other">Autre</a></li>
             <li><a class="btn" href="TODO">Contact</a></li>
@@ -30,8 +31,8 @@
 </header>
 
 <main>
-    <div id="summary">
-        <div id="summary-text">
+    <section id="summary">
+        <article id="summary-text">
             <h1>Damien Hebert</h1>
             <h2>Concepteur développeur d'applications</h2>
 
@@ -39,8 +40,7 @@
                 Développeur Symfony expérimenté, cumulant plusieurs années d'expérience en entreprise,
                 j'ai commencé à créer des sites web dès le collège.
                 Aujourd'hui, je propose mes services en tant que freelance pour offrir des solutions sur mesure et de
-                qualité,
-                en m'appuyant sur une solide expertise technique et une passion pour le développement.
+                qualité, en m'appuyant sur une solide expertise technique et une passion pour le développement.
             </p>
 
             <div id="social-media">
@@ -52,19 +52,19 @@
                     <img alt="Logo Github" src="assets/images/social-network/github.svg">
                 </a>
             </div>
-        </div>
+        </article>
 
         <div id="summary-image">
             <img alt="Moi" src="assets/images/charlie.png">
         </div>
-    </div>
+    </section>
 
-    <div id="projects">
+    <section id="projects">
         <div id="projects-content">
             <h2>Projets récents</h2>
 
             <div class="projects">
-                <div class="project">
+                <article class="project">
                     <div class="project-summary">
                         <h3 class="project-summary-title">
                             Ganapati Formations
@@ -72,21 +72,25 @@
                         <span class="project-summary-date">
                             2019 - Aujourd'hui
                         </span>
-                        <p class="project-summary-text">
-                            Suspendisse postea pertinax libero wisi mollis evertitur pro definitionem maluisset.
-                            Theophrastus animal urbanitas feugait hendrerit. Commune mnesarchum omnesque mandamus ligula
-                            risus. Nonumy eget prodesset ancillae sed eruditi invenire dicam. Justo mandamus litora
-                            definitiones oratio constituto tritani postea doctus vero.
-                        </p>
+                        <div class="project-summary-text">
+                            <p>
+                                Fondé en 2018, la startup Ganapati Formations propose différentes applications web
+                                permettant la gestion administrative et pédagogique des formations.
+                            </p>
+                            <p>
+                                Depuis 4 ans, je participe a la conception des applications de Ganapati, principalement
+                                dans le développement de la partie backend et la création de différentes API.
+                            </p>
+                        </div>
                     </div>
                     <div class="project-image">
                         <img alt="Page d'accueil du site ganapati.fr"
                              src="assets/images/projects/ganapati-website-2.png"
                         >
                     </div>
-                </div>
+                </article>
 
-                <div class="project">
+                <article class="project">
                     <div class="project-image">
                         <img alt="Page d'accueil du site archers-caen.fr"
                              src="assets/images/projects/archers-de-caen-website-2.png"
@@ -99,25 +103,107 @@
                         <span class="project-summary-date">
                             2022 - Aujourd'hui
                         </span>
-                        <p class="project-summary-text">
-                            Metus invidunt suscipit inani nunc efficiantur magnis quidam maluisset persius. Scelerisque
-                            principes inani faucibus putent nullam. Deseruisse tincidunt sadipscing tamquam saepe nunc
-                            minim. Reprimique aliquip facilis magna erat leo quaeque. Tritani honestatis petentium nibh
-                            consectetuer bibendum.
-                        </p>
+                        <div class="project-summary-text">
+                            <p>
+                                Depuis 1964, le club des archers de Caen forme de nombreuses personnes à la pratique du
+                                tir à l'arc.
+                                Chaque année, de nombreux archers caennais participent à diverses compétitions et
+                                championnats
+                                à l’échelle départementale, régionale et même nationale.
+                            </p>
+                            <p>
+                                En tant que membre et entraineur, j'ai réalisé le site web du club que je continue de
+                                mettre à jour régulièrement
+                            </p>
+                        </div>
                     </div>
-                </div>
+                </article>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div id="courses">
-        courses
-    </div>
+    <section id="skills">
+        <h2>Compétences</h2>
 
-    <div id="other">
-        other
-    </div>
+        <svg height="0" style="visibility: hidden; position: absolute;" version="1.1" width="0"
+             xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <filter id="hexagon">
+                    <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="8"/>
+                    <feColorMatrix in="blur" mode="matrix" result="goo"
+                                   values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"/>
+                    <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+                </filter>
+            </defs>
+        </svg>
+
+        <article class="skills">
+            <div class="skill">
+                <img alt="Logo du framework Symfony" src="assets/images/skills/symfony.svg">
+                <div class="hexagon"></div>
+            </div>
+            <div class="skill">
+                <img alt="Logo du language PHP" src="assets/images/skills/php.svg">
+                <div class="hexagon"></div>
+            </div>
+            <div class="skill">
+                <img alt="Logo de MySQL" src="assets/images/skills/mysql.svg">
+                <div class="hexagon"></div>
+            </div>
+            <div class="skill">
+                <img alt="Logo de la librairie doctrine" src="assets/images/skills/doctrine.svg">
+                <div class="hexagon"></div>
+            </div>
+            <div class="skill">
+                <img alt="Logo du logiciel Git" src="assets/images/skills/git.svg">
+                <div class="hexagon"></div>
+            </div>
+        </article>
+
+        <article class="skills">
+            <div class="skill">
+                <img alt="Logo du language HTML" src="assets/images/skills/html.svg">
+                <div class="hexagon"></div>
+            </div>
+            <div class="skill">
+                <img alt="Logo du language CSS" src="assets/images/skills/css.svg">
+                <div class="hexagon"></div>
+            </div>
+            <div class="skill">
+                <img alt="Logo du language Javascript" src="assets/images/skills/javascript.svg">
+                <div class="hexagon"></div>
+            </div>
+        </article>
+
+        <article class="skills">
+            <div class="skill">
+                <img alt="Logo du framework React" src="assets/images/skills/react.svg">
+                <div class="hexagon"></div>
+            </div>
+            <div class="skill">
+                <img alt="Logo du framework Vue-js" src="assets/images/skills/vue-js.svg">
+                <div class="hexagon"></div>
+            </div>
+            <div class="skill">
+                <img alt="Logo du language Python" src="assets/images/skills/python.svg">
+                <div class="hexagon"></div>
+            </div>
+            <div class="skill">
+                <img alt="Logo du framework Django" src="assets/images/skills/django.svg">
+                <div class="hexagon"></div>
+            </div>
+        </article>
+    </section>
+
+    <section id="courses">
+        <div id="courses-content">
+            <h2>Formations</h2>
+        </div>
+    </section>
+
+    <section id="other">
+        <h2>Autre</h2>
+    </section>
 </main>
 
 <script src="/dist/bundle.js"></script>

@@ -16,15 +16,16 @@
 
     h1 {
       font-size: 3.5rem;
+      margin: 0;
     }
 
     #social-media {
-      position: absolute;
-
+      margin: 1.5rem 0;
       bottom: 3rem;
       right: 1rem;
 
       display: flex;
+      justify-content: flex-end;
       gap: 1rem;
 
       img {

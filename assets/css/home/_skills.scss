@@ -1,0 +1,45 @@
+@import "assets/css/variable";
+
+#skills {
+  width: $columns-7xl;
+  margin: auto;
+
+  .skills {
+    display: flex;
+    justify-content: space-around;
+    margin: 4rem 0;
+
+    .skill {
+      box-sizing: border-box;
+      position: relative;
+      height: 173px;
+      width: 200px;
+
+      .hexagon {
+        width: 200px;
+        display: inline-block;
+        color: $color-white;
+        filter: url('#hexagon');
+        position: absolute;
+
+        &:before {
+          content: "";
+          display: block;
+          background: currentColor;
+          padding-top: 86.6%;
+          clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+        }
+      }
+
+      img {
+        z-index: 1;
+        width: 100px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+
+}
