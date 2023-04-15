@@ -4,6 +4,10 @@
   width: $columns-7xl;
   margin: auto;
 
+  h2 {
+    margin-left: 8rem;
+  }
+
   .skills-container {
     .skills {
       display: flex;

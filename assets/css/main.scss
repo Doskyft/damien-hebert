@@ -1,4 +1,5 @@
 @import 'variable';
+@import 'margin';
 
 * {
   font-family: 'Roboto', sans-serif;
@@ -17,8 +18,8 @@ body {
 }
 
 a {
-  text-decoration: none;
-  color: $color-black;
+  text-decoration: underline;
+  color: $color-red;
 }
 
 main {
@@ -37,7 +38,7 @@ main {
   @import 'home/summary';
   @import 'home/projects';
   @import 'home/courses';
-  @import 'home/other';
+  @import 'home/contact';
   @import 'home/skills';
 }
 
