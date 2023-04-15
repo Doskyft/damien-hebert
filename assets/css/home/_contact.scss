@@ -1,6 +1,7 @@
 @import "assets/css/variable";
 
 #contact {
-  width: $columns-5xl;
+  max-width: $columns-3xl;
+  width: 90%;
   margin: auto;
 }

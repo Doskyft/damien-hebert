@@ -1,8 +1,10 @@
 @import '../variable';
 
 #summary {
-  max-width: $columns-5xl;
-  margin: 5rem auto 0 auto;
+  max-width: $columns-3xl;
+  width: 90%;
+
+  margin: 3rem auto 0 auto;
 
   display: flex;
   justify-content: space-around;
@@ -15,18 +17,29 @@
     justify-content: start;
 
     h1 {
-      font-size: 3.5rem;
       margin: 0;
     }
 
+    h2 {
+      margin: 1rem 0 0;
+    }
+
+    p:first-of-type {
+      margin-top: 2rem;
+    }
+
     #social-media {
-      margin: 1.5rem 0;
+      margin: 3rem 0;
       bottom: 3rem;
       right: 1rem;
 
       display: flex;
       justify-content: flex-end;
       gap: 1rem;
+
+      @media screen and (min-device-width: $columns-2xl) {
+        margin: 1.5rem 0;
+      }
 
       img {
         width: 3.5rem;
@@ -36,12 +49,65 @@
   }
 
   #summary-image {
-    display: flex;
+    display: none;
 
     margin-top: 2rem;
+
+    @media screen and (min-device-width: $columns-2xl) {
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+    }
 
     img {
       filter: $drop-shadow-lg;
     }
   }
 }
+
+
+//#summary {
+//  max-width: $columns-xl;
+//  margin: 5rem auto 0 auto;
+//
+//  display: flex;
+//  justify-content: space-around;
+//  gap: 4rem;
+//
+//  #summary-text {
+//    position: relative;
+//    display: flex;
+//    flex-direction: column;
+//    justify-content: start;
+//
+//    h1 {
+//      font-size: 3.5rem;
+//      margin: 0;
+//    }
+//
+//    #social-media {
+//      margin: 1.5rem 0;
+//      bottom: 3rem;
+//      right: 1rem;
+//
+//      display: flex;
+//      justify-content: flex-end;
+//      gap: 1rem;
+//
+//      img {
+//        width: 3.5rem;
+//        box-shadow: $shadow-xl;
+//      }
+//    }
+//  }
+//
+//  #summary-image {
+//    display: flex;
+//
+//    margin-top: 2rem;
+//
+//    img {
+//      filter: $drop-shadow-lg;
+//    }
+//  }
+//}

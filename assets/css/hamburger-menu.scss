@@ -1,0 +1,36 @@
+@import './variable.scss';
+
+.hamburger-menu {
+  height: 25px;
+  width: 25px;
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+
+  @media screen and (min-device-width: $columns-1xl) {
+    display: none;
+  }
+
+  .hamburger-menu-bar {
+    height: 15%;
+    width: 100%;
+    background-color: $color-black;
+    border-radius: $border-radius-normal;
+    transition: transform .5s ease;
+  }
+
+  &.close {
+    .hamburger-menu-bar {
+      transform-origin: 19px;
+
+      &:nth-child(1) {
+        transform: rotate(-45deg);
+      }
+
+      &:nth-child(2) {
+        transform: rotate(45deg);
+      }
+    }
+  }
+}

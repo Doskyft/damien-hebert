@@ -5,7 +5,9 @@
   color: $color-black;
 
   #courses-content {
-    width: $columns-5xl;
+    max-width: $columns-3xl;
+    width: 90%;
+
     margin: auto;
     padding: 1rem 0;
 
@@ -17,7 +19,7 @@
         margin: 3rem 0;
 
         img {
-          width: 100px;
+          width: 50px;
         }
 
         h3 {

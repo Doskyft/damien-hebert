@@ -9,7 +9,11 @@
 
   border-radius: .6rem;
 
-  padding: .8rem 2rem;
+  padding: .8rem 1rem;
 
   box-shadow: $shadow-md;
+
+  @media screen and (min-device-width: $columns-1xl) {
+    padding: .8rem 2rem;
+  }
 }
