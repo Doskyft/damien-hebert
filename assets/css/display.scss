@@ -1,0 +1,43 @@
+.d- {
+  &block {
+    display: block;
+  }
+
+  &flex {
+    display: flex;
+  }
+
+  &none {
+    display: none;
+  }
+
+  &grid {
+    display: grid;
+  }
+}
+
+.justify-content- {
+  &start {
+    justify-content: flex-start;
+  }
+
+  &center {
+    justify-content: center;
+  }
+
+  &end {
+    justify-content: flex-end;
+  }
+
+  &space-evenly {
+    justify-content: space-evenly;
+  }
+
+  &space-between {
+    justify-content: space-between;
+  }
+
+  &space-around {
+    justify-content: space-around;
+  }
+}

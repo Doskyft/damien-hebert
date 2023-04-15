@@ -1,5 +1,6 @@
 @import 'variable';
 @import 'margin';
+@import 'display';
 
 * {
   font-family: 'Roboto', sans-serif;
@@ -20,6 +21,12 @@ body {
 a {
   text-decoration: underline;
   color: $color-red;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 main {
