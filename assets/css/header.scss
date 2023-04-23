@@ -9,6 +9,7 @@ header {
   text-align: center;
 
   max-width: $columns-3xl;
+  min-width: 254px;
   width: 90%;
 
   margin: 1rem auto 0 auto;
@@ -20,17 +21,17 @@ header {
 
   box-shadow: $shadow-2xl;
 
-  @media screen and (min-device-width: $columns-md) {
+  @media screen and (min-width: $columns-md) {
     padding: 1.6rem;
   }
 
-  @media screen and (min-device-width: $columns-1xl) {
+  @media screen and (min-width: $columns-1xl) {
     margin: 2rem auto 0 auto;
     justify-content: flex-end;
     flex-direction: row;
   }
 
-  @media screen and (min-device-width: $columns-2xl) {
+  @media screen and (min-width: $columns-2xl) {
     justify-content: space-between;
   }
 
@@ -62,7 +63,7 @@ header {
   h2 {
     display: none;
 
-    @media screen and (min-device-width: $columns-2xl) {
+    @media screen and (min-width: $columns-2xl) {
       display: block;
     }
 
@@ -84,7 +85,7 @@ header {
       margin: 0;
       padding: 0;
 
-      @media screen and (min-device-width: $columns-1xl) {
+      @media screen and (min-width: $columns-1xl) {
         display: flex;
         flex-direction: row;
       }
@@ -92,7 +93,7 @@ header {
       li:last-child {
         margin-top: 1.5rem;
 
-        @media screen and (min-device-width: $columns-1xl) {
+        @media screen and (min-width: $columns-1xl) {
           margin-left: 1.5rem;
           margin-top: 0;
         }

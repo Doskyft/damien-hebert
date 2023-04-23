@@ -7,8 +7,9 @@
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
+  cursor: pointer;
 
-  @media screen and (min-device-width: $columns-1xl) {
+  @media screen and (min-width: $columns-1xl) {
     display: none;
   }
 

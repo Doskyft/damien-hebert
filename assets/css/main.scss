@@ -31,17 +31,18 @@ a {
 
 main {
   color: $color-white;
+  min-width: 254px;
 
   h1 {
     text-transform: uppercase;
     font-size: 2rem;
     line-height: 4rem;
 
-    @media screen and (min-device-width: $columns-sm) {
+    @media screen and (min-width: $columns-sm) {
       font-size: 2.8rem;
     }
 
-    @media screen and (min-device-width: $columns-1xl) {
+    @media screen and (min-width: $columns-1xl) {
       font-size: 3.6rem;
     }
   }
@@ -50,11 +51,11 @@ main {
     font-size: 1.2rem;
     line-height: 3rem;
 
-    @media screen and (min-device-width: $columns-sm) {
+    @media screen and (min-width: $columns-sm) {
       font-size: 1.6rem;
     }
 
-    @media screen and (min-device-width: $columns-1xl) {
+    @media screen and (min-width: $columns-1xl) {
       font-size: 2rem;
     }
   }
@@ -62,11 +63,11 @@ main {
   h3 {
     font-size: .8rem;
 
-    @media screen and (min-device-width: $columns-sm) {
+    @media screen and (min-width: $columns-sm) {
       font-size: 1rem;
     }
 
-    @media screen and (min-device-width: $columns-1xl) {
+    @media screen and (min-width: $columns-1xl) {
       font-size: 1.2rem;
     }
   }
@@ -74,20 +75,29 @@ main {
   p {
     font-size: .7rem;
 
-    @media screen and (min-device-width: $columns-sm) {
+    @media screen and (min-width: $columns-sm) {
       font-size: .8rem;
     }
 
-    @media screen and (min-device-width: $columns-1xl) {
+    @media screen and (min-width: $columns-1xl) {
       font-size: 1rem;
+    }
+  }
+
+  li {
+    margin-top: .8rem;
+
+    &:first-child {
+      margin-top: 0;
     }
   }
 
   @import 'home/summary';
   @import 'home/projects';
   @import 'home/courses';
-  @import 'home/contact';
   @import 'home/skills';
+  @import 'home/contact';
+  @import 'home/footer';
 }
 
 @import 'header';

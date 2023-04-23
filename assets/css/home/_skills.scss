@@ -14,12 +14,12 @@
       flex-wrap: wrap;
       gap: 1rem;
 
-      @media screen and (min-device-width: $columns-2xl) {
+      @media screen and (min-width: $columns-2xl) {
         justify-content: space-between;
       }
 
       &:nth-child(2) {
-        @media screen and (min-device-width: $columns-2xl) {
+        @media screen and (min-width: $columns-2xl) {
           justify-content: space-evenly;
         }
       }
@@ -30,22 +30,22 @@
         height: 45px;
         width: 50px;
 
-        @media screen and (min-device-width: $columns-sm) {
+        @media screen and (min-width: $columns-sm) {
           height: 90px;
           width: 100px;
         }
 
-        @media screen and (min-device-width: $columns-md) {
+        @media screen and (min-width: $columns-md) {
           height: 115px;
           width: 135px;
         }
 
-        @media screen and (min-device-width: $columns-1xl) {
+        @media screen and (min-width: $columns-1xl) {
           height: 160px;
           width: 170px;
         }
 
-        @media screen and (min-device-width: $columns-1xl) {
+        @media screen and (min-width: $columns-1xl) {
           margin: 1rem 0;
         }
 
@@ -56,15 +56,15 @@
           filter: url('#hexagon') $drop-shadow-2xl;
           position: absolute;
 
-          @media screen and (min-device-width: $columns-sm) {
+          @media screen and (min-width: $columns-sm) {
             width: 100px;
           }
 
-          @media screen and (min-device-width: $columns-md) {
+          @media screen and (min-width: $columns-md) {
             width: 135px;
           }
 
-          @media screen and (min-device-width: $columns-1xl) {
+          @media screen and (min-width: $columns-1xl) {
             width: 170px;
           }
 
@@ -85,15 +85,15 @@
           top: 50%;
           transform: translate(-50%, -50%);
 
-          @media screen and (min-device-width: $columns-sm) {
+          @media screen and (min-width: $columns-sm) {
             width: 50px;
           }
 
-          @media screen and (min-device-width: $columns-md) {
+          @media screen and (min-width: $columns-md) {
             width: 65px;
           }
 
-          @media screen and (min-device-width: $columns-1xl) {
+          @media screen and (min-width: $columns-1xl) {
             width: 80px;
           }
         }

@@ -20,7 +20,7 @@
         justify-content: space-between;
         flex-direction: column;
 
-        @media screen and (min-device-width: $columns-1xl) {
+        @media screen and (min-width: $columns-1xl) {
           flex-direction: row;
           gap: 4rem;
           margin: 4rem 0;
@@ -29,7 +29,7 @@
         &:nth-child(2) {
           flex-direction: column-reverse;
 
-          @media screen and (min-device-width: $columns-1xl) {
+          @media screen and (min-width: $columns-1xl) {
             flex-direction: row;
           }
         }
@@ -50,6 +50,12 @@
             display: block;
             width: 100%;
             border-radius: .8rem;
+          }
+
+          .link {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 1rem;
           }
         }
       }

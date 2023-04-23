@@ -3,5 +3,26 @@
 #contact {
   max-width: $columns-3xl;
   width: 90%;
-  margin: auto;
+  margin: 4rem auto;
+
+  .contacts {
+    display: flex;
+    gap: 2rem;
+
+    ul {
+      list-style: none;
+
+      li {
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+        margin-top: 2rem;
+
+        a {
+          color: $color-white;
+          text-decoration: none;
+        }
+      }
+    }
+  }
 }
