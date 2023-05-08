@@ -1,11 +1,6 @@
-const path = require('path')
-
+const CopyPlugin = require("copy-webpack-plugin");
 module.exports = {
     entry: './assets/js/app.js',
-    output: {
-        path: path.resolve('./dist'),
-        filename: 'bundle.js'
-    },
     module: {
         rules: [
             {
@@ -23,4 +18,11 @@ module.exports = {
             }
         ]
     },
+    plugins: [
+        new CopyPlugin({
+            patterns: [
+                { from: "assets/images", to: "images/[path][name][ext]" },
+            ],
+        }),
+    ]
 }
