@@ -24,6 +24,14 @@ npm install
 npm run dev
 ```
 
+### Mise en prod
+
+```bash
+npm run build
+```
+
+Copier le dossier `public` sur le serveur
+
 ## Licence
 
 Pas de réutilisation - Pas d'Utilisation Commerciale - Pas de Modification
