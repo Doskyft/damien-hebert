@@ -36,5 +36,8 @@
   "bugs": {
     "url": "https://github.com/Doskyft/damien-hebert/issues"
   },
-  "homepage": "https://github.com/Doskyft/damien-hebert#readme"
+  "homepage": "https://github.com/Doskyft/damien-hebert#readme",
+  "dependencies": {
+    "html-webpack-plugin": "^5.6.0"
+  }
 }
