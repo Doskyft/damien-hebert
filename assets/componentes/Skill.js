@@ -12,4 +12,4 @@ class Skill extends HTMLElement {
     }
 }
 
-customElements.define('skill', Project)
+customElements.define('my-skill', Skill)
