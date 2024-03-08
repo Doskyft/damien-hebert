@@ -72,136 +72,25 @@
 
     <section id="projects">
         <div id="projects-content">
-            <h2>Projets récents</h2>
+            <h2>Mes plus gros projets</h2>
 
             <div class="projects">
-                <article class="project">
-                    <div class="project-summary">
-                        <h3 class="project-summary-title">
-                            Ganapati Formations
-                        </h3>
-                        <span class="project-summary-date">
-                            2019 - Aujourd'hui
-                        </span>
-                        <div class="project-summary-text">
-                            <p>
-                                Fondé en 2018, la startup Ganapati Formations propose différentes applications web
-                                permettant la gestion administrative et pédagogique des formations.
-                            </p>
-                            <p>
-                                Depuis 4 ans, je participe à la conception des applications de Ganapati, principalement
-                                dans le développement de la partie backend et la création de différentes API.
-                            </p>
-
-                            <div>
-                                <a class="more-detail-toggle" href="#">
-                                    Afficher plus de détails
-                                </a>
-
-                                <div class="more-detail" style="display: none">
-                                    <ul>
-                                        <li>
-                                            Ganapilot - Plateforme de gestion administratif de l'activité de formation,
-                                            Application réalisée avec Symfony, twig, Scss.
-                                        </li>
-                                        <li>
-                                            Ganabadge - Plateforme de gestion des compétences basée sur la norme
-                                            OpenBadge,
-                                            Application réalisée avec Symfony pour l'API et Vuejs pour la partie front
-                                        </li>
-                                        <li>
-                                            Ganasync - API de synchronisation entre différents logiciels de la formation
-                                            professionnelle et
-                                            les plateformes des financeurs, telles qu'EDOF, l'espace des organismes de
-                                            formation lié au CPF,
-                                            API réalisée avec Symfony, plus utilisation de Selenium pour
-                                            l'automatisation de certaines plateformes ne disposant pas d'API
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-image">
-                        <img alt="Page d'accueil du site ganapati.fr"
-                             src="/dist/images/projects/ganapati-website-2.png"
-                        >
-
-                        <div class="link">
-                            <a class="btn btn-secondary" href="https://ganapati.fr" rel="nofollow" target="_blank">
-                                Accéder au site
-                            </a>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="project">
-                    <div class="project-image">
-                        <img alt="Page d'accueil du site archers-caen.fr"
-                             src="/dist/images/projects/archers-de-caen-website-2.png"
-                        >
-
-                        <div class="link">
-                            <a class="btn btn-secondary" href="https://archers-caen.fr" rel="nofollow" target="_blank">
-                                Accéder au site
-                            </a>
-                        </div>
-                    </div>
-                    <div class="project-summary">
-                        <h3 class="project-summary-title">
-                            Archers de Caen
-                        </h3>
-                        <span class="project-summary-date">
-                            2022 - Aujourd'hui
-                        </span>
-                        <div class="project-summary-text">
-                            <p>
-                                Depuis 1964, le club des archers de Caen forme de nombreuses personnes à la pratique du
-                                tir à l'arc.
-                                Chaque année, de nombreux archers caennais participent à diverses compétitions et
-                                championnats
-                                à l’échelle départementale, régionale et même nationale.
-                            </p>
-                            <p>
-                                En tant que membre et entraîneur, j'ai réalisé le site web du club que je continue de
-                                mettre à jour régulièrement
-                            </p>
-
-                            <div>
-                                <a class="more-detail-toggle" href="#">
-                                    Afficher plus de détails
-                                </a>
-
-                                <div class="more-detail" style="display: none">
-                                    <ul>
-                                        <li>Site réalisé en Symfony, Twig, React, MySQL et avec des bases de DDD</li>
-                                        <li>Vitrine de présentation du club</li>
-                                        <li>Gestion d'actualités</li>
-                                        <li>Albums photos</li>
-                                        <li>Gestion des résultats, concours, record, flèches de progression</li>
-                                        <li>Mise en place d'un back-office</li>
-                                        <li>Envoi d'email automatique</li>
-                                        <li>Formulaire d'inscription au concours du club</li>
-                                        <li>Migration des données de l'ancienne version du site</li>
-                                        <li>Intégration d'Helloasso pour les paiements, via iframe et API</li>
-                                        <li>
-                                            Code en open source sur
-                                            <a href="https://github.com/Archers-de-Caen/archers-de-caen" rel="nofollow"
-                                               target="_blank">
-                                                Github
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </article>
+                <my-project-kanta></my-project-kanta>
+                <my-project-archers-de-caen></my-project-archers-de-caen>
+                <my-project-digiforma-sync></my-project-digiforma-sync>
+                <my-project-ganapati></my-project-ganapati>
             </div>
 
-            <div class="cta mb-2">
-                <p>Intéressé par mon travail ?</p>
-                <a class="btn" href="#contact">Parlez-moi de votre projet</a>
+            <div class="d-flex justify-content-space-between align-items-center">
+                <div>
+                    Vous pouvez retrouver une partie de mes autres projets sur
+                    <a href="https://github.com/Doskyft" rel="nofollow" target="_blank">Github</a>
+                </div>
+
+                <div class="cta mb-2">
+                    <p>Intéressé par mon travail ?</p>
+                    <a class="btn" href="#contact">Parlez-moi de votre projet</a>
+                </div>
             </div>
         </div>
     </section>

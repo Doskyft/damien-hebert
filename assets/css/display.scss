@@ -41,3 +41,25 @@
     justify-content: space-around;
   }
 }
+
+.align-items- {
+  &start {
+    align-items: flex-start;
+  }
+
+  &center {
+    align-items: center;
+  }
+
+  &end {
+    align-items: flex-end;
+  }
+
+  &stretch {
+    align-items: stretch;
+  }
+
+  &baseline {
+    align-items: baseline;
+  }
+}
