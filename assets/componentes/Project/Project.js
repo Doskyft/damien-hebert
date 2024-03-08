@@ -1,5 +1,5 @@
 class Project extends HTMLElement {
-    connectedCallback() {
+        connectedCallback() {
         const summary = `
             <div class="project-summary">   
                 <h3 class="project-summary-title">

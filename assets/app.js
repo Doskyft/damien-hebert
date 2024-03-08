@@ -9,3 +9,5 @@ require('./componentes/Project/ProjectArchersDeCaen')
 require('./componentes/Project/ProjectGanapati')
 require('./componentes/Project/ProjectDigiformaSync')
 require('./componentes/Project/ProjectKanta')
+
+require('./componentes/Skill')
