@@ -9,8 +9,12 @@ module.exports = merge(common, {
         static: [
             {
                 directory: path.join(__dirname, 'assets/images'),
-                publicPath: '/dist/images',
+                publicPath: '/images',
             },
         ],
-    }
+    },
+    output: {
+        path: path.join(__dirname, 'dist'),
+        filename: 'bundle.js'
+    },
 })

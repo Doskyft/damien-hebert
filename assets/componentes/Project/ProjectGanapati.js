@@ -3,7 +3,7 @@ class ProjectGanapati extends HTMLElement {
         this.outerHTML = `
             <my-project
                     date="2019 - 2023"
-                    image="/dist/images/projects/ganapati-website-2.png"
+                    image="images/projects/ganapati-website-2.png"
                     image-alt="Page d'accueil du site ganapati.fr"
                     link="https://ganapati.fr"
                     link-text="Accéder au site"

@@ -3,7 +3,7 @@ class ProjectArchersDeCaen extends HTMLElement {
         this.outerHTML = `
             <my-project
                 date="2022 - Aujourd'hui"
-                image="/dist/images/projects/archers-de-caen-website-2.png"
+                image="images/projects/archers-de-caen-website-2.png"
                 image-alt="Page d'accueil du site archers-caen.fr"
                 link="https://archers-caen.fr"
                 link-text="Accéder au site"

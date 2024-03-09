@@ -3,7 +3,7 @@ class ProjectKanta extends HTMLElement {
         this.outerHTML = `
             <my-project
                     date="2024 - Aujourd'hui"
-                    image="/dist/images/projects/kanta-website.png"
+                    image="images/projects/kanta-website.png"
                     image-alt="Page d'accueil du site kanta.fr"
                     link="https://kanta.fr"
                     link-text="Accéder au site"

@@ -27,13 +27,16 @@ module.exports = {
     plugins: [
         new CopyPlugin({
             patterns: [
-                {from: "assets/images", to: "images/[path][name][ext]"},
+                {
+                    from: "assets/images",
+                    to: "images/[path][name][ext]"
+                },
+                {
+                    from: "assets/damien-hebert-cv.pdf",
+                    to: "damien-hebert-cv.pdf"
+                },
             ],
         }),
         new HtmlWebpackPlugin({template: './public/index.html'})
     ],
-    output: {
-        path: path.join(__dirname, 'dist'),
-        filename: 'bundle.js'
-    },
 }

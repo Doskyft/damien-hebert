@@ -3,6 +3,7 @@ const common = require("./webpack.common");
 const TerserPlugin = require("terser-webpack-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
+const path = require("path");
 
 module.exports = merge(common, {
     mode: 'production',
@@ -21,4 +22,8 @@ module.exports = merge(common, {
             ],
         })
     ],
+    output: {
+        path: path.join(__dirname, 'build'),
+        filename: 'bundle.js'
+    },
 })

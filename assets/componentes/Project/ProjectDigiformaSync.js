@@ -3,7 +3,7 @@ class ProjectDigiformaSync extends HTMLElement {
         this.outerHTML = `
             <my-project
                     date="2023 - 2024"
-                    image="/dist/images/projects/digiforma-sync-website.png"
+                    image="images/projects/digiforma-sync-website.png"
                     image-alt="Page d'accueil du site forma-sync.com"
                     link="https://forma-sync.com/"
                     link-text="Accéder au site"
